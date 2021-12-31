@@ -5,38 +5,29 @@ import java.util.*;
 import com.memorysql.model.*;
 import com.memorysql.model.constraint.*;
 import com.memorysql.model.operator.EqualsOperator;
+/*
+ * Problem: Design an in-memory database using object-oriented principles.
+ */
 
 public class MainDriver {
 public static void main(String[] args) {
-	Database database = Database.getInstance("Company");  
-	
-    Table employee = database.createTable("Employee");
+   	Database database = Database.getInstance("company");
+   	SQL sql = new SQL(database);
+    Table employee = database.createTable("employee");
     Column id = employee.createColumn("id", Type.INTEGER);
     id.addCons(new IntegerConstraint());
     
-    Column name = employee.createColumn("name", Type.STRING);
-    name.addCons(new StringConstrain());
+    Column username = employee.createColumn("username", Type.STRING);
+    username.addCons(new StringConstrain());
+    username.addCons(new IsRequiredConstraint());
     
-	Map <String,Object> record1 = new HashMap<String, Object>();
-    record1.put("id", 101);
-    record1.put("name", "Deepanshu");
-	employee.insert(record1);
+    Column password = employee.createColumn("password", Type.STRING);
+    password.addCons(new StringConstrain());
+    
+    Column salary= employee.createColumn("salary", Type.INTEGER);
+	sql.insert("INSERT INTO EMPLOYEE values(101,\"Deepanshu\",\"password\",1100);");
+	sql.insert("INSERT INTO EMPLOYEE values(101,\"Deepanshu\",\"\");");
 
-	
-	Map <String,Object> record2 = new HashMap<String, Object>();
-
-	record2.put("id", 102);
-	record2.put("name", "Deepanshu");
-	employee.insert(record2);
-		
-	Map <String,Object> record3 = new HashMap<String, Object>();
-
-	record3.put("id", 103);
-	record3.put("name", "Mahesh");
-
-	employee.insert(record3);
-	
-	// SELECT * FROM EMPLOYEE WHERE NAME = DEEPANSHU
-	System.out.println(database.Query("Employee","Deepanshu", "name", "*", new EqualsOperator()));
+	database.getTable("employee").printAllRecords();
 } 
 }

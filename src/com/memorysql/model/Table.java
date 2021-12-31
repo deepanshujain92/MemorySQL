@@ -5,13 +5,13 @@ import java.util.*;
 public class Table {
 	private String tableName;
 	private HashMap<Integer, Row> rows;
-	private TreeMap<String, Column> columns;
+	private LinkedHashMap<String, Column> columns;
 	private Integer autoId;
 
 	Table(String tableName) {
 		this.tableName = tableName;
 		this.rows = new HashMap<>();
-		this.columns = new TreeMap<>();
+		this.columns = new LinkedHashMap<>();
 		this.autoId = 0;
 	}
 	
@@ -41,12 +41,11 @@ public class Table {
 		this.autoId = autoId;
 	}	
 	
-	public boolean insert(Map<String, Object> values) {
+	public boolean insert(LinkedHashMap<String, Object> values) {
 		Integer id = this.getAutoId();
 		Set<String> colNames = columns.keySet();
 		for(String columnName: colNames) {
 			columns.get(columnName).validate(values.get(columnName));
-				
 		}
 		
 		Row row = new Row(id, values);

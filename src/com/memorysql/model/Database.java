@@ -1,17 +1,20 @@
 package com.memorysql.model;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.memorysql.model.operator.Operator;
-
-import java.util.Map.Entry;
-
 public class Database {
+	private static String currentDatabase;
+	public static String getCurrentDatabase() {
+		return currentDatabase;
+	}
+
+	public static void setCurrentDatabase(String currentDatabase) {
+		Database.currentDatabase = currentDatabase;
+		getInstance(Database.currentDatabase);
+	}
+
 	private String name;
 	private static Map<String, Database> dbMap = new ConcurrentHashMap<>();
 
@@ -44,15 +47,5 @@ public class Database {
 
 	public void deleteTable(String tableName) {
 		tables.remove(tableName);
-	}
-
-	public List<Row> Query(String tableName, Object value, String columnname, String columnsToSelect, Operator op) {
-		List<Row> results = new ArrayList<Row>();
-		Set<Entry<Integer, Row>> data = tables.get(tableName).getRows().entrySet();
-		for (Map.Entry<Integer, Row> entry : data) {
-			if(op.applyOp(entry.getValue().getValues().get(columnname), value)) 
-				results.add(entry.getValue());		
-		}
-		return results;
-	}
+	}	
 }

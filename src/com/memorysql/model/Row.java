@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Row {
 	
-	public Row(Integer rowId, Map<String, Object> values) {
+	public Row(Integer rowId, LinkedHashMap<String, Object> values) {
 		this.values = values;
 		this.rowId = rowId;
 	}
@@ -23,11 +23,11 @@ public class Row {
 		return values;
 	}
 
-	public void setValues(Map<String, Object> values) {
+	public void setValues(LinkedHashMap<String, Object> values) {
 		this.values = values;
 	}
 
-	private Map<String, Object> values;
+	private LinkedHashMap<String, Object> values;
 	
 	
 

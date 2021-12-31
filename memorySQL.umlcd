@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_VmJmAGoGEeyMX89dbfyWEA">
+  <modelElement href="memorySQL.uml#_WO7dQWoGEeyMX89dbfyWEA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bZHDIGoGEeyMX89dbfyWEA" targetItem="_bZQNEGoGEeyMX89dbfyWEA" sourceItem="_bZF1AGoGEeyMX89dbfyWEA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bbAgkGoGEeyMX89dbfyWEA" sourceAnchor="153.0,0.0" targetAnchor="0.0,33.0" target="_bdCg4GoGEeyMX89dbfyWEA" source="_bbBHoGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WoZtMWoGEeyMX89dbfyWEA"/>
+    <bendpoints xmi:id="_qU1bkGoGEeyMX89dbfyWEA" sourceY="-89" targetX="-218"/>
+    <stereotypes xmi:id="_bbAgkWoGEeyMX89dbfyWEA" name="Reference">
+      <modelElement href="memorySQL.uml#_Woa7UGoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bbAgkmoGEeyMX89dbfyWEA" text="">
+      <visualProperties xmi:id="_cIyzoGoGEeyMX89dbfyWEA" position="-28.0,50.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bbAgk2oGEeyMX89dbfyWEA" aggregationKind="NONE" name="">
+      <modelElement href="memorySQL.uml#_WoZtMmoGEeyMX89dbfyWEA"/>
+      <visualProperties xmi:id="_cIyMkGoGEeyMX89dbfyWEA" position="-17.000000000000014,-75.0"/>
+      <visibility xmi:id="_bbAglGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbAglWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bbAglmoGEeyMX89dbfyWEA" aggregationKind="NONE" name="cons" navigable="true">
+      <modelElement href="memorySQL.uml#_Wm5RUGoGEeyMX89dbfyWEA"/>
+      <visualProperties xmi:id="_cIzasGoGEeyMX89dbfyWEA" position="-248.0,68.0"/>
+      <visibility xmi:id="_bbAgl2oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbAgmGoGEeyMX89dbfyWEA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bbUpoGoGEeyMX89dbfyWEA" sourceAnchor="142.0,0.0" targetAnchor="0.0,86.0" target="_bbeaoGoGEeyMX89dbfyWEA" source="_bbeaoGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WoPVIGoGEeyMX89dbfyWEA"/>
+    <bendpoints xmi:id="_qU1bkWoGEeyMX89dbfyWEA" sourceY="-60" targetX="142" targetY="-170"/>
+    <bendpoints xmi:id="_qU1bkmoGEeyMX89dbfyWEA" sourceX="-221" sourceY="-66" targetX="-79" targetY="-176"/>
+    <bendpoints xmi:id="_qU2CoGoGEeyMX89dbfyWEA" sourceX="-221" sourceY="110" targetX="-79"/>
+    <stereotypes xmi:id="_bbXs8WoGEeyMX89dbfyWEA" name="Reference">
+      <modelElement href="memorySQL.uml#_WoRKUGoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bbXF4GoGEeyMX89dbfyWEA" text="">
+      <visualProperties xmi:id="_cI1P4GoGEeyMX89dbfyWEA" position="159.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bbXF4WoGEeyMX89dbfyWEA" aggregationKind="NONE" name="">
+      <modelElement href="memorySQL.uml#_WoPVIWoGEeyMX89dbfyWEA"/>
+      <visualProperties xmi:id="_cI0o0GoGEeyMX89dbfyWEA" position="-20.0,-46.0"/>
+      <visibility xmi:id="_bbY7EGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbYUAGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bbXs8GoGEeyMX89dbfyWEA" aggregationKind="NONE" name="dbMap" navigable="true">
+      <modelElement href="memorySQL.uml#_Wl-rUGoGEeyMX89dbfyWEA"/>
+      <visualProperties xmi:id="_cI128GoGEeyMX89dbfyWEA" position="-56.0,5.999999999999886"/>
+      <stereotypes xmi:id="_1rejsGoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WmAggGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bbZiImoGEeyMX89dbfyWEA" label="-"/>
+      <cardinality xmi:id="_bbZiIWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_bbY7EWoGEeyMX89dbfyWEA">
+        <qualifiers xmi:id="_bbZiIGoGEeyMX89dbfyWEA">
+          <modelElement href="memorySQL.uml#_WmAggWoGEeyMX89dbfyWEA"/>
+          <visibility xmi:id="_bbaJMWoGEeyMX89dbfyWEA" label="+"/>
+          <cardinality xmi:id="_bbaJMmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+          <type xmi:id="_bbaJMGoGEeyMX89dbfyWEA" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bbdMgGoGEeyMX89dbfyWEA" sourceAnchor="0.0,128.0" targetAnchor="191.0,230.0" target="_bctwyWoGEeyMX89dbfyWEA" source="_bbeaoGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WoRKUWoGEeyMX89dbfyWEA"/>
+    <bendpoints xmi:id="_qU2CoWoGEeyMX89dbfyWEA" sourceX="-335" targetX="-2" targetY="236"/>
+    <stereotypes xmi:id="_bbdMgWoGEeyMX89dbfyWEA" name="Reference">
+      <modelElement href="memorySQL.uml#_WoU0sGoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bbdMgmoGEeyMX89dbfyWEA" text="">
+      <visualProperties xmi:id="_cI3FEGoGEeyMX89dbfyWEA" position="1.0,-55.999999999999886"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bbdMg2oGEeyMX89dbfyWEA" aggregationKind="NONE" name="">
+      <modelElement href="memorySQL.uml#_WoRKUmoGEeyMX89dbfyWEA"/>
+      <visualProperties xmi:id="_cI2eAGoGEeyMX89dbfyWEA" position="-111.0,-43.0"/>
+      <visibility xmi:id="_bbdMhGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbdMhWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bbdMhmoGEeyMX89dbfyWEA" aggregationKind="NONE" name="tables" navigable="true">
+      <modelElement href="memorySQL.uml#_WmBHkGoGEeyMX89dbfyWEA"/>
+      <visualProperties xmi:id="_cI3FEWoGEeyMX89dbfyWEA" position="2.0,31.0"/>
+      <stereotypes xmi:id="_1rgY4GoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WmCVsGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bbdMh2oGEeyMX89dbfyWEA" label="-"/>
+      <cardinality xmi:id="_bbdMiGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_bbdMiWoGEeyMX89dbfyWEA">
+        <qualifiers xmi:id="_bbdMimoGEeyMX89dbfyWEA">
+          <modelElement href="memorySQL.uml#_WmCVsWoGEeyMX89dbfyWEA"/>
+          <visibility xmi:id="_bbdMi2oGEeyMX89dbfyWEA" label="+"/>
+          <cardinality xmi:id="_bbdMjGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+          <type xmi:id="_bbdMjWoGEeyMX89dbfyWEA" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bcOBgGoGEeyMX89dbfyWEA" source="_bcOolmoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WoU0sWoGEeyMX89dbfyWEA"/>
+    <stereotypes xmi:id="_bcOBgWoGEeyMX89dbfyWEA" name="Reference">
+      <modelElement href="memorySQL.uml#_WoWC0GoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bcOBgmoGEeyMX89dbfyWEA" text=""/>
+    <sourceRole xmi:id="_bcOokGoGEeyMX89dbfyWEA" aggregationKind="NONE" name="">
+      <modelElement href="memorySQL.uml#_WoU0smoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcOokWoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcOokmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bcOok2oGEeyMX89dbfyWEA" aggregationKind="NONE" name="values" navigable="true">
+      <modelElement href="memorySQL.uml#_WmEK4GoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_1rg_8GoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WmEx8GoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1rg_8WoGEeyMX89dbfyWEA" name="Generics">
+        <modelElement href="memorySQL.uml#_WmGnIGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bcOolGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcOolWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bcVWQGoGEeyMX89dbfyWEA" sourceAnchor="691.0,33.0" targetAnchor="0.0,158.0" target="_bbeaoGoGEeyMX89dbfyWEA" source="_bcbc4GoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WoWp4GoGEeyMX89dbfyWEA"/>
+    <stereotypes xmi:id="_bcWkY2oGEeyMX89dbfyWEA" name="Reference">
+      <modelElement href="memorySQL.uml#_WoXQ8GoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bcWkYGoGEeyMX89dbfyWEA" text="">
+      <visualProperties xmi:id="_cI46QGoGEeyMX89dbfyWEA" position="-716.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bcWkYWoGEeyMX89dbfyWEA" aggregationKind="NONE" name="">
+      <modelElement href="memorySQL.uml#_WoWp4WoGEeyMX89dbfyWEA"/>
+      <visualProperties xmi:id="_cI3sIGoGEeyMX89dbfyWEA" position="32.0,-15.0"/>
+      <visibility xmi:id="_bcZnsWoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcZnsGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bcWkYmoGEeyMX89dbfyWEA" aggregationKind="NONE" name="db" navigable="true">
+      <modelElement href="memorySQL.uml#_WmMtwGoGEeyMX89dbfyWEA"/>
+      <visualProperties xmi:id="_cI46QWoGEeyMX89dbfyWEA" position="-1442.0,-15.0"/>
+      <stereotypes xmi:id="_1rhnAGoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WmPxEGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bcZns2oGEeyMX89dbfyWEA" label="~"/>
+      <cardinality xmi:id="_bcZnsmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bcoRMGoGEeyMX89dbfyWEA" source="_bctwyWoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WoYfEWoGEeyMX89dbfyWEA"/>
+    <stereotypes xmi:id="_bcrUgGoGEeyMX89dbfyWEA" name="Reference">
+      <modelElement href="memorySQL.uml#_WoZtMGoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bcqtcGoGEeyMX89dbfyWEA" text=""/>
+    <sourceRole xmi:id="_bcqtcWoGEeyMX89dbfyWEA" aggregationKind="NONE" name="">
+      <modelElement href="memorySQL.uml#_WoYfEmoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcr7kWoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcr7kGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bcqtcmoGEeyMX89dbfyWEA" aggregationKind="NONE" name="columns" navigable="true">
+      <modelElement href="memorySQL.uml#_WmXs4GoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_1riOEGoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WmYT8GoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1riOEWoGEeyMX89dbfyWEA" name="Generics">
+        <modelElement href="memorySQL.uml#_WmawMGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bcr7k2oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcr7kmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bctwwGoGEeyMX89dbfyWEA" source="_bctwyWoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WoX4AGoGEeyMX89dbfyWEA"/>
+    <stereotypes xmi:id="_bctwwWoGEeyMX89dbfyWEA" name="Reference">
+      <modelElement href="memorySQL.uml#_WoYfEGoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bctwwmoGEeyMX89dbfyWEA" text=""/>
+    <sourceRole xmi:id="_bctww2oGEeyMX89dbfyWEA" aggregationKind="NONE" name="">
+      <modelElement href="memorySQL.uml#_WoX4AWoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bctwxGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bctwxWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bctwxmoGEeyMX89dbfyWEA" aggregationKind="NONE" name="rows" navigable="true">
+      <modelElement href="memorySQL.uml#_WmUpkGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_1riOEmoGEeyMX89dbfyWEA" name="Generics">
+        <modelElement href="memorySQL.uml#_WmXF0GoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bctwx2oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bctwyGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bdHZYGoGEeyMX89dbfyWEA" sourceAnchor="150.0,0.0" targetAnchor="124.0,67.0" dashed="true" superClass="_bdCg4GoGEeyMX89dbfyWEA" subClass="_bdJ1oGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WiddQGoGEeyMX89dbfyWEA"/>
+    <bendpoints xmi:id="_qU2ComoGEeyMX89dbfyWEA" sourceY="-30" targetX="30" targetY="116"/>
+    <bendpoints xmi:id="_qU2Co2oGEeyMX89dbfyWEA" sourceX="-30" sourceY="-30" targetY="116"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bdNgAGoGEeyMX89dbfyWEA" sourceAnchor="271.0,0.0" targetAnchor="124.0,67.0" dashed="true" superClass="_bdCg4GoGEeyMX89dbfyWEA" subClass="_bdPVMGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WihHoGoGEeyMX89dbfyWEA"/>
+    <bendpoints xmi:id="_qU2CpGoGEeyMX89dbfyWEA" sourceY="-150" targetX="171" targetY="116"/>
+    <bendpoints xmi:id="_qU2CpWoGEeyMX89dbfyWEA" sourceX="-171" sourceY="-150" targetY="116"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bdSYgGoGEeyMX89dbfyWEA" sourceAnchor="136.0,0.0" targetAnchor="124.0,67.0" dashed="true" superClass="_bdCg4GoGEeyMX89dbfyWEA" subClass="_bdUNsGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WikK8GoGEeyMX89dbfyWEA"/>
+    <bendpoints xmi:id="_qU2psGoGEeyMX89dbfyWEA" sourceY="-270" targetX="203" targetY="116"/>
+    <bendpoints xmi:id="_qU2psWoGEeyMX89dbfyWEA" sourceX="-203" sourceY="-270" targetY="116"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bdXRAGoGEeyMX89dbfyWEA" sourceAnchor="191.0,0.0" targetAnchor="177.0,97.0" superClass="_bdi3MGoGEeyMX89dbfyWEA" subClass="_bdZtQGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_Wf3cQGoGEeyMX89dbfyWEA"/>
+    <bendpoints xmi:id="_qU2psmoGEeyMX89dbfyWEA" sourceY="-22" targetX="-409" targetY="22"/>
+    <bendpoints xmi:id="_qU2ps2oGEeyMX89dbfyWEA" sourceX="409" sourceY="-22" targetY="22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bdd-sGoGEeyMX89dbfyWEA" sourceAnchor="205.0,0.0" targetAnchor="177.0,97.0" superClass="_bdi3MGoGEeyMX89dbfyWEA" subClass="_bdfz4GoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_Wi1QsGoGEeyMX89dbfyWEA"/>
+    <bendpoints xmi:id="_qU2ptGoGEeyMX89dbfyWEA" sourceY="-166" targetX="-203" targetY="22"/>
+    <bendpoints xmi:id="_qU2ptWoGEeyMX89dbfyWEA" sourceX="203" sourceY="-166" targetY="22"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bZF1AGoGEeyMX89dbfyWEA" sourceConnectionVisual="_bZHDIGoGEeyMX89dbfyWEA" text="Problem: Design an in-memory database using object-oriented principles." item="_bZQNEGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WoDH4WoGEeyMX89dbfyWEA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bbBHoGoGEeyMX89dbfyWEA" name="Column" associationsOut="_bbAgkGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WSfHkGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bbBHoWoGEeyMX89dbfyWEA" position="-26.0,260.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bbBHomoGEeyMX89dbfyWEA" name="Patch">
+      <modelElement href="memorySQL.uml#_bYc70GoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <visibility xmi:id="_bbBHo2oGEeyMX89dbfyWEA" label="+"/>
+    <attributes xmi:id="_bbBHpGoGEeyMX89dbfyWEA" name="type">
+      <modelElement href="memorySQL.uml#_Wm3cIGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bbBHpWoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_Wm4DMGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bbBHpmoGEeyMX89dbfyWEA" name="MultiDeclaration">
+        <modelElement href="memorySQL.uml#_WoM44GoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bbBHp2oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbBHqGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bbBHqWoGEeyMX89dbfyWEA" name="Type">
+        <modelElement href="memorySQL.uml#_WSMMoGoGEeyMX89dbfyWEA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bbBHqmoGEeyMX89dbfyWEA" name="name">
+      <modelElement href="memorySQL.uml#_Wm4qQGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bbBHq2oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbBHrGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bbBHrWoGEeyMX89dbfyWEA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bbBHrmoGEeyMX89dbfyWEA" name="cons">
+      <modelElement href="memorySQL.uml#_Wm5RUGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bbBHr2oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbBHsGoGEeyMX89dbfyWEA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_bbBHsWoGEeyMX89dbfyWEA" name="Constraint">
+        <modelElement href="memorySQL.uml#_WSPP8GoGEeyMX89dbfyWEA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bbBHsmoGEeyMX89dbfyWEA" name="Column">
+      <modelElement href="memorySQL.uml#_WivxIGoGEeyMX89dbfyWEA"/>
+      <keywords xmi:id="_bbBHs2oGEeyMX89dbfyWEA" keyword="create"/>
+      <visibility xmi:id="_bbBHtGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbBHtWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bbBHtmoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WiwYM2oGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bbBHt2oGEeyMX89dbfyWEA" name="Column">
+          <modelElement href="memorySQL.uml#_WSfHkGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bbBHuGoGEeyMX89dbfyWEA" name="name">
+        <modelElement href="memorySQL.uml#_WivxIWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bbBHuWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bbBHumoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bbBHu2oGEeyMX89dbfyWEA" name="type">
+        <modelElement href="memorySQL.uml#_WiwYMGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bbBHvGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bbBHvWoGEeyMX89dbfyWEA" name="Type">
+          <modelElement href="memorySQL.uml#_WSMMoGoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bbBHvmoGEeyMX89dbfyWEA" name="addCons">
+      <modelElement href="memorySQL.uml#_WiyNYGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bbBHv2oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbBHwGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bbBHwWoGEeyMX89dbfyWEA" name="con">
+        <modelElement href="memorySQL.uml#_WiyNYWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bbBHwmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bbBHw2oGEeyMX89dbfyWEA" name="Constraint">
+          <modelElement href="memorySQL.uml#_WSPP8GoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bbBHxGoGEeyMX89dbfyWEA" name="validate">
+      <modelElement href="memorySQL.uml#_WluMoGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bbBHxWoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbBHxmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bbBHx2oGEeyMX89dbfyWEA" name="value">
+        <modelElement href="memorySQL.uml#_WluzsGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bbBHyGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bbBHyWoGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bbeaoGoGEeyMX89dbfyWEA" name="Database" associationsIn="_bbUpoGoGEeyMX89dbfyWEA _bcVWQGoGEeyMX89dbfyWEA" associationsOut="_bbUpoGoGEeyMX89dbfyWEA _bbdMgGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WQ82gGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bbeaoWoGEeyMX89dbfyWEA" position="2085.0,550.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bbeaomoGEeyMX89dbfyWEA" label="+"/>
+    <attributes xmi:id="_bbeao2oGEeyMX89dbfyWEA" name="currentDatabase" staticAttribute="true">
+      <modelElement href="memorySQL.uml#_Wl6Z4GoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bbeapGoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_Wl7A8GoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bbeapWoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbeapmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bbeap2oGEeyMX89dbfyWEA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bbeaqGoGEeyMX89dbfyWEA" name="name">
+      <modelElement href="memorySQL.uml#_Wl-EQGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bbeaqWoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbeaqmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bbeaq2oGEeyMX89dbfyWEA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bbearGoGEeyMX89dbfyWEA" defaultValue="new ConcurrentHashMap&lt;>()" name="dbMap" staticAttribute="true">
+      <modelElement href="memorySQL.uml#_Wl-rUGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_1ryFsGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1rzT0GoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1r_hEGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_bbearmoGEeyMX89dbfyWEA" label="-"/>
+      <cardinality xmi:id="_bbear2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bbeasGoGEeyMX89dbfyWEA" name="Database">
+        <modelElement href="memorySQL.uml#_WQ82gGoGEeyMX89dbfyWEA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bbeasWoGEeyMX89dbfyWEA" name="tables">
+      <modelElement href="memorySQL.uml#_WmBHkGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_1r0h8GoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1r2XIGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1sAIIGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_bbeas2oGEeyMX89dbfyWEA" label="-"/>
+      <cardinality xmi:id="_bbeatGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bbeatWoGEeyMX89dbfyWEA" name="Table">
+        <modelElement href="memorySQL.uml#_WRzyIGoGEeyMX89dbfyWEA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bbeatmoGEeyMX89dbfyWEA" name="Database">
+      <modelElement href="memorySQL.uml#_WRBH8GoGEeyMX89dbfyWEA"/>
+      <keywords xmi:id="_bbeat2oGEeyMX89dbfyWEA" keyword="create"/>
+      <visibility xmi:id="_bbeauGoGEeyMX89dbfyWEA" label="-"/>
+      <cardinality xmi:id="_bbeauWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bbeaumoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WRELQmoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bbeau2oGEeyMX89dbfyWEA" name="Database">
+          <modelElement href="memorySQL.uml#_WQ82gGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bbeavGoGEeyMX89dbfyWEA" name="dbName">
+        <modelElement href="memorySQL.uml#_WRBH8WoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bbeavWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bbeavmoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bbeav2oGEeyMX89dbfyWEA" name="getInstance" staticOperation="true">
+      <modelElement href="memorySQL.uml#_WRFZYGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bbeawGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbeawWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bbeawmoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WgZnwGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bbeaw2oGEeyMX89dbfyWEA" name="Database">
+          <modelElement href="memorySQL.uml#_WQ82gGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bbeaxGoGEeyMX89dbfyWEA" name="dbName">
+        <modelElement href="memorySQL.uml#_WRGAcGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bbeaxWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bbeaxmoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bbeax2oGEeyMX89dbfyWEA" name="createTable">
+      <modelElement href="memorySQL.uml#_WRJDwGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bbeayGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbeayWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bbeaymoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WgfuYGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bbeay2oGEeyMX89dbfyWEA" name="Table">
+          <modelElement href="memorySQL.uml#_WRzyIGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bbeazGoGEeyMX89dbfyWEA" name="tableName">
+        <modelElement href="memorySQL.uml#_WRJDwWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bbeazWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bbeazmoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bbeaz2oGEeyMX89dbfyWEA" name="getTable">
+      <modelElement href="memorySQL.uml#_WRK48GoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bbea0GoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbea0WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bbea0moGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WgixsGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bbea02oGEeyMX89dbfyWEA" name="Table">
+          <modelElement href="memorySQL.uml#_WRzyIGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bbea1GoGEeyMX89dbfyWEA" name="tableName">
+        <modelElement href="memorySQL.uml#_WRLgAGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bbea1WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bbea1moGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bbea12oGEeyMX89dbfyWEA" name="deleteTable">
+      <modelElement href="memorySQL.uml#_WRNVMGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bbea2GoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bbea2WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bbea2moGEeyMX89dbfyWEA" name="tableName">
+        <modelElement href="memorySQL.uml#_WRNVMWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bbea22oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bbea3GoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_bc7zMGoGEeyMX89dbfyWEA" name="Type">
+    <modelElement href="memorySQL.uml#_WSMMoGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bc7zMWoGEeyMX89dbfyWEA" position="-196.0,301.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bc7zMmoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+      <modelElement href="memorySQL.uml#_WSOB0GoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bc7zM2oGEeyMX89dbfyWEA" name="Patch">
+      <modelElement href="memorySQL.uml#_bYafkGoGEeyMX89dbfyWEA"/>
+    </stereotypes>
+    <visibility xmi:id="_bc7zNGoGEeyMX89dbfyWEA" label="+"/>
+    <literals xmi:id="_bc7zNWoGEeyMX89dbfyWEA" name="INTEGER">
+      <modelElement href="memorySQL.uml#_WSOB0WoGEeyMX89dbfyWEA"/>
+    </literals>
+    <literals xmi:id="_bc7zNmoGEeyMX89dbfyWEA" name="STRING">
+      <modelElement href="memorySQL.uml#_WSOo4GoGEeyMX89dbfyWEA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bdCg4GoGEeyMX89dbfyWEA" name="Constraint" associationsIn="_bbAgkGoGEeyMX89dbfyWEA" subclassedBy="_bdHZYGoGEeyMX89dbfyWEA _bdNgAGoGEeyMX89dbfyWEA _bdSYgGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WSPP8GoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bdCg4WoGEeyMX89dbfyWEA" position="345.0,138.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bdCg4moGEeyMX89dbfyWEA" label="+"/>
+    <operations xmi:id="_bdCg42oGEeyMX89dbfyWEA" name="validate">
+      <modelElement href="memorySQL.uml#_WlPEcGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bdCg5GoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bdCg5WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bdCg5moGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WlQSkGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bdCg52oGEeyMX89dbfyWEA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bdCg6GoGEeyMX89dbfyWEA" name="object">
+        <modelElement href="memorySQL.uml#_WlPEcWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdCg6WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdCg6moGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bdJ1oGoGEeyMX89dbfyWEA" name="IntegerConstraint" generalizations="_bdHZYGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WSSTQGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bdJ1oWoGEeyMX89dbfyWEA" position="349.0,351.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bdJ1omoGEeyMX89dbfyWEA" label="+"/>
+    <operations xmi:id="_bdJ1o2oGEeyMX89dbfyWEA" name="validate">
+      <modelElement href="memorySQL.uml#_WlRgsGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bdJ1pGoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WlVyIGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bdJ1pWoGEeyMX89dbfyWEA" name="Annotations">
+        <modelElement href="memorySQL.uml#_WlXAQGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bdJ1pmoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bdJ1p2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bdJ1qGoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WlSHwWoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bdJ1qWoGEeyMX89dbfyWEA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bdJ1qmoGEeyMX89dbfyWEA" name="object">
+        <modelElement href="memorySQL.uml#_WlSHwGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdJ1q2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdJ1rGoGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bdPVMGoGEeyMX89dbfyWEA" name="IsRequiredConstraint" generalizations="_bdNgAGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WSWksGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bdPVMWoGEeyMX89dbfyWEA" position="369.0,471.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bdPVMmoGEeyMX89dbfyWEA" label="+"/>
+    <operations xmi:id="_bdPVM2oGEeyMX89dbfyWEA" name="validate">
+      <modelElement href="memorySQL.uml#_Wlcf0GoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bdPVNGoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WlkboGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bdPVNWoGEeyMX89dbfyWEA" name="Annotations">
+        <modelElement href="memorySQL.uml#_WllpwGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bdPVNmoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bdPVN2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bdPVOGoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WlimcGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bdPVOWoGEeyMX89dbfyWEA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bdPVOmoGEeyMX89dbfyWEA" name="object">
+        <modelElement href="memorySQL.uml#_Wldt8GoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdPVO2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdPVPGoGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bdUNsGoGEeyMX89dbfyWEA" name="StringConstrain" generalizations="_bdSYgGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WSbdMGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bdUNsWoGEeyMX89dbfyWEA" position="536.0,591.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bdUNsmoGEeyMX89dbfyWEA" label="+"/>
+    <operations xmi:id="_bdUNs2oGEeyMX89dbfyWEA" name="validate">
+      <modelElement href="memorySQL.uml#_Wlp7MGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bdUNtGoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WlsXcGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bdUNtWoGEeyMX89dbfyWEA" name="Annotations">
+        <modelElement href="memorySQL.uml#_Wls-gGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bdUNtmoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bdUNt2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bdUNuGoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WlrwYGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bdUNuWoGEeyMX89dbfyWEA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bdUNumoGEeyMX89dbfyWEA" name="object">
+        <modelElement href="memorySQL.uml#_WlrJUGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdUNu2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdUNvGoGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bdZtQGoGEeyMX89dbfyWEA" name="EqualsOperator" generalizations="_bdXRAGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WQzskGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bdZtQWoGEeyMX89dbfyWEA" position="687.0,336.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bdZtQmoGEeyMX89dbfyWEA" label="+"/>
+    <operations xmi:id="_bdZtQ2oGEeyMX89dbfyWEA" name="EqualsOperator">
+      <modelElement href="memorySQL.uml#_WQ1hwGoGEeyMX89dbfyWEA"/>
+      <keywords xmi:id="_bdZtRGoGEeyMX89dbfyWEA" keyword="create"/>
+      <visibility xmi:id="_bdZtRWoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bdZtRmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bdZtR2oGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WQ2v4WoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bdZtSGoGEeyMX89dbfyWEA" name="EqualsOperator">
+          <modelElement href="memorySQL.uml#_WQzskGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bdZtSWoGEeyMX89dbfyWEA" name="applyOp">
+      <modelElement href="memorySQL.uml#_Wjew8GoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bdZtSmoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WjmFsGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bdZtS2oGEeyMX89dbfyWEA" name="Annotations">
+        <modelElement href="memorySQL.uml#_WjnT0GoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bdZtTGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bdZtTWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bdZtTmoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WjleoGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bdZtT2oGEeyMX89dbfyWEA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bdZtUGoGEeyMX89dbfyWEA" name="filterValue">
+        <modelElement href="memorySQL.uml#_WjgmIGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdZtUWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdZtUmoGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bdZtU2oGEeyMX89dbfyWEA" name="value">
+        <modelElement href="memorySQL.uml#_WjhNMGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdZtVGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdZtVWoGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bdfz4GoGEeyMX89dbfyWEA" name="NotEqualsOperator" generalizations="_bdd-sGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WSqGsGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bdfz4WoGEeyMX89dbfyWEA" position="879.0,480.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bdfz4moGEeyMX89dbfyWEA" label="+"/>
+    <operations xmi:id="_bdfz42oGEeyMX89dbfyWEA" name="NotEqualsOperator">
+      <modelElement href="memorySQL.uml#_WSrU0GoGEeyMX89dbfyWEA"/>
+      <keywords xmi:id="_bdfz5GoGEeyMX89dbfyWEA" keyword="create"/>
+      <visibility xmi:id="_bdfz5WoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bdfz5moGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bdfz52oGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WSsi8GoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bdfz6GoGEeyMX89dbfyWEA" name="NotEqualsOperator">
+          <modelElement href="memorySQL.uml#_WSqGsGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bdfz6WoGEeyMX89dbfyWEA" name="applyOp">
+      <modelElement href="memorySQL.uml#_Wlwo4GoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bdfz6moGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WlyeEGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bdfz62oGEeyMX89dbfyWEA" name="Annotations">
+        <modelElement href="memorySQL.uml#_WlzsMGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bdfz7GoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bdfz7WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bdfz7moGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_Wlx3AGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bdfz72oGEeyMX89dbfyWEA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bdfz8GoGEeyMX89dbfyWEA" name="filterValue">
+        <modelElement href="memorySQL.uml#_Wlwo4WoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdfz8WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdfz8moGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bdfz82oGEeyMX89dbfyWEA" name="value">
+        <modelElement href="memorySQL.uml#_WlxP8GoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdfz9GoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdfz9WoGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bZQNEGoGEeyMX89dbfyWEA" comments="_bZF1AGoGEeyMX89dbfyWEA" targetConnectionVisual="_bZHDIGoGEeyMX89dbfyWEA" name="MainDriver">
+    <modelElement href="memorySQL.uml#_WQj08GoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bZQNEWoGEeyMX89dbfyWEA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bZQNEmoGEeyMX89dbfyWEA" label="+"/>
+    <operations xmi:id="_bZQNE2oGEeyMX89dbfyWEA" name="main" staticOperation="true">
+      <modelElement href="memorySQL.uml#_WQu0EGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bZQ0IGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bZQ0IWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bZQ0ImoGEeyMX89dbfyWEA" name="args">
+        <modelElement href="memorySQL.uml#_WQvbIGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bZQ0I2oGEeyMX89dbfyWEA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_bZQ0JGoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bcbc4GoGEeyMX89dbfyWEA" name="SQL" associationsOut="_bcVWQGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WRheQGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bcbc4WoGEeyMX89dbfyWEA" position="-218.0,675.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bcbc4moGEeyMX89dbfyWEA" label="+"/>
+    <attributes xmi:id="_bcbc42oGEeyMX89dbfyWEA" name="db">
+      <modelElement href="memorySQL.uml#_WmMtwGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_1r6BgGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1r6okGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1sBWQGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_bcbc5WoGEeyMX89dbfyWEA" label="~"/>
+      <cardinality xmi:id="_bcbc5moGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bcbc52oGEeyMX89dbfyWEA" name="Database">
+        <modelElement href="memorySQL.uml#_WQ82gGoGEeyMX89dbfyWEA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bcbc6GoGEeyMX89dbfyWEA" name="insert">
+      <modelElement href="memorySQL.uml#_WRm90GoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcbc6WoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcbc6moGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bcbc62oGEeyMX89dbfyWEA" name="insertQuery">
+        <modelElement href="memorySQL.uml#_WRm90WoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbc7GoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbc7WoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bcbc7moGEeyMX89dbfyWEA" name="parseValues">
+      <modelElement href="memorySQL.uml#_WRozAGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bcbc72oGEeyMX89dbfyWEA" name="Array">
+        <modelElement href="memorySQL.uml#_WRqoMGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bcbc8GoGEeyMX89dbfyWEA" label="-"/>
+      <cardinality xmi:id="_bcbc8WoGEeyMX89dbfyWEA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bcbc8moGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WRpaEWoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bcbc82oGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bcbc9GoGEeyMX89dbfyWEA" name="splitedQuery">
+        <modelElement href="memorySQL.uml#_WRpaEGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbc9WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbc9moGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bcbc92oGEeyMX89dbfyWEA" name="SQL">
+      <modelElement href="memorySQL.uml#_Whl6kGoGEeyMX89dbfyWEA"/>
+      <keywords xmi:id="_bcbc-GoGEeyMX89dbfyWEA" keyword="create"/>
+      <visibility xmi:id="_bcbc-WoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcbc-moGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bcbc-2oGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_Wh-8IGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bcbc_GoGEeyMX89dbfyWEA" name="SQL">
+          <modelElement href="memorySQL.uml#_WRheQGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bcbc_WoGEeyMX89dbfyWEA" name="db">
+        <modelElement href="memorySQL.uml#_WhmhoGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbc_moGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbc_2oGEeyMX89dbfyWEA" name="Database">
+          <modelElement href="memorySQL.uml#_WQ82gGoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bcbdAGoGEeyMX89dbfyWEA" name="Query">
+      <modelElement href="memorySQL.uml#_WkgEoGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcbdAWoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcbdAmoGEeyMX89dbfyWEA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bcbdA2oGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WkhSwmoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bcbdBGoGEeyMX89dbfyWEA" name="Row">
+          <modelElement href="memorySQL.uml#_WRUC4GoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bcbdBWoGEeyMX89dbfyWEA" name="tableName">
+        <modelElement href="memorySQL.uml#_WkgrsGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbdBmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbdB2oGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bcbdCGoGEeyMX89dbfyWEA" name="value">
+        <modelElement href="memorySQL.uml#_WkgrsWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbdCWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbdCmoGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bcbdC2oGEeyMX89dbfyWEA" name="columnname">
+        <modelElement href="memorySQL.uml#_WkgrsmoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbdDGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbdDWoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bcbdDmoGEeyMX89dbfyWEA" name="columnsToSelect">
+        <modelElement href="memorySQL.uml#_WkhSwGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbdD2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbdEGoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bcbdEWoGEeyMX89dbfyWEA" name="op">
+        <modelElement href="memorySQL.uml#_WkhSwWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbdEmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbdE2oGEeyMX89dbfyWEA" name="Operator">
+          <modelElement href="memorySQL.uml#_WSwNUGoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bcbdFGoGEeyMX89dbfyWEA" name="insert">
+      <modelElement href="memorySQL.uml#_WkwjUGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcbdFWoGEeyMX89dbfyWEA" label="-"/>
+      <cardinality xmi:id="_bcbdFmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bcbdF2oGEeyMX89dbfyWEA" name="table">
+        <modelElement href="memorySQL.uml#_WkxKYGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbdGGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbdGWoGEeyMX89dbfyWEA" name="Table">
+          <modelElement href="memorySQL.uml#_WRzyIGoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bcbdGmoGEeyMX89dbfyWEA" name="record">
+        <modelElement href="memorySQL.uml#_WkxKYWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbdG2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbdHGoGEeyMX89dbfyWEA" name="Map">
+          <modelElement href="memorySQL.uml#_WhInkGoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bcbdHWoGEeyMX89dbfyWEA" name="col">
+        <modelElement href="memorySQL.uml#_WkxxcGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbdHmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbdH2oGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bcbdIGoGEeyMX89dbfyWEA" name="value">
+        <modelElement href="memorySQL.uml#_WkyYgGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcbdIWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcbdImoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bctwyWoGEeyMX89dbfyWEA" name="Table" associationsIn="_bbdMgGoGEeyMX89dbfyWEA" associationsOut="_bcoRMGoGEeyMX89dbfyWEA _bctwwGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WRzyIGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bcuX0GoGEeyMX89dbfyWEA" position="1494.0,212.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bcuX0WoGEeyMX89dbfyWEA" label="+"/>
+    <attributes xmi:id="_bcuX0moGEeyMX89dbfyWEA" name="tableName">
+      <modelElement href="memorySQL.uml#_WmQ_MGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcuX02oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcuX1GoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bcuX1WoGEeyMX89dbfyWEA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bcuX1moGEeyMX89dbfyWEA" name="rows">
+      <modelElement href="memorySQL.uml#_WmUpkGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_1r9r4GoGEeyMX89dbfyWEA" name="Generics"/>
+      <stereotypes xmi:id="_1r-S8GoGEeyMX89dbfyWEA" name="Generics"/>
+      <stereotypes xmi:id="_1sB9UGoGEeyMX89dbfyWEA" name="Generics"/>
+      <visibility xmi:id="_bcuX2GoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcuX2WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bcuX2moGEeyMX89dbfyWEA" name="HashMap">
+        <modelElement href="memorySQL.uml#_Wk6UUGoGEeyMX89dbfyWEA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bcuX22oGEeyMX89dbfyWEA" name="columns">
+      <modelElement href="memorySQL.uml#_WmXs4GoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_1r72sGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1r72sWoGEeyMX89dbfyWEA" name="Generics"/>
+      <stereotypes xmi:id="_1r9E0GoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1r9E0WoGEeyMX89dbfyWEA" name="Generics"/>
+      <stereotypes xmi:id="_1sB9UWoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1sCkYGoGEeyMX89dbfyWEA" name="Generics"/>
+      <visibility xmi:id="_bcuX3moGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcuX32oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bcuX4GoGEeyMX89dbfyWEA" name="LinkedHashMap">
+        <modelElement href="memorySQL.uml#_Wg9BYGoGEeyMX89dbfyWEA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bcuX4WoGEeyMX89dbfyWEA" name="autoId">
+      <modelElement href="memorySQL.uml#_WmfosGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bcuX4moGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_Wmg20GoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bcuX42oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcuX5GoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bcuX5WoGEeyMX89dbfyWEA" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bcuX5moGEeyMX89dbfyWEA" name="Table">
+      <modelElement href="memorySQL.uml#_WR4qoGoGEeyMX89dbfyWEA"/>
+      <keywords xmi:id="_bcuX52oGEeyMX89dbfyWEA" keyword="create"/>
+      <visibility xmi:id="_bcuX6GoGEeyMX89dbfyWEA" label="~"/>
+      <cardinality xmi:id="_bcuX6WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bcuX6moGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WR54wmoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bcuX62oGEeyMX89dbfyWEA" name="Table">
+          <modelElement href="memorySQL.uml#_WRzyIGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bcuX7GoGEeyMX89dbfyWEA" name="tableName">
+        <modelElement href="memorySQL.uml#_WR5RsGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcuX7WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcuX7moGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bcuX72oGEeyMX89dbfyWEA" name="deleteRow">
+      <modelElement href="memorySQL.uml#_WR7t8GoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcuX8GoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcuX8WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bcuX8moGEeyMX89dbfyWEA" name="rowId">
+        <modelElement href="memorySQL.uml#_WR8VAGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcuX82oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcuX9GoGEeyMX89dbfyWEA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bcuX9WoGEeyMX89dbfyWEA" name="printAllRecords">
+      <modelElement href="memorySQL.uml#_WR88EGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcuX9moGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcuX92oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bcuX-GoGEeyMX89dbfyWEA" name="Query">
+      <modelElement href="memorySQL.uml#_WR-xQGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bcuX-WoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WR__YGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bcuX-moGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcuX-2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bcuX_GoGEeyMX89dbfyWEA" name="query">
+        <modelElement href="memorySQL.uml#_WR_YUGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcuX_WoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcuX_moGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bcuX_2oGEeyMX89dbfyWEA" name="createColumn">
+      <modelElement href="memorySQL.uml#_WiLwcGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcuYAGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcuYAWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bcuYAmoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WiM-kGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bcuYA2oGEeyMX89dbfyWEA" name="Column">
+          <modelElement href="memorySQL.uml#_WSfHkGoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bcuYBGoGEeyMX89dbfyWEA" name="columnName">
+        <modelElement href="memorySQL.uml#_WiLwcWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcuYBWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcuYBmoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bcuYB2oGEeyMX89dbfyWEA" name="type">
+        <modelElement href="memorySQL.uml#_WiMXgGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcuYCGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcuYCWoGEeyMX89dbfyWEA" name="Type">
+          <modelElement href="memorySQL.uml#_WSMMoGoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bcuYCmoGEeyMX89dbfyWEA" name="insert">
+      <modelElement href="memorySQL.uml#_WlFTcGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcuYC2oGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcuYDGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bcuYDWoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WlKL8GoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bcuYDmoGEeyMX89dbfyWEA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bcuYD2oGEeyMX89dbfyWEA" name="values">
+        <modelElement href="memorySQL.uml#_WlGhkGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcuYEGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcuYEWoGEeyMX89dbfyWEA" name="LinkedHashMap">
+          <modelElement href="memorySQL.uml#_Wg9BYGoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bdi3MGoGEeyMX89dbfyWEA" name="Operator" abstractClass="true" subclassedBy="_bdXRAGoGEeyMX89dbfyWEA _bdd-sGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WSwNUGoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bdi3MWoGEeyMX89dbfyWEA" position="1110.0,195.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bdi3MmoGEeyMX89dbfyWEA" label="+"/>
+    <attributes xmi:id="_bdi3M2oGEeyMX89dbfyWEA" name="name">
+      <modelElement href="memorySQL.uml#_Wm8UoGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bdi3NGoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_Wm-J0WoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bdi3NWoGEeyMX89dbfyWEA" label="~"/>
+      <cardinality xmi:id="_bdi3NmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bdi3N2oGEeyMX89dbfyWEA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bdi3OGoGEeyMX89dbfyWEA" name="sign">
+      <modelElement href="memorySQL.uml#_Wm-w4GoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bdi3OWoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_Wm__AGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bdi3OmoGEeyMX89dbfyWEA" label="~"/>
+      <cardinality xmi:id="_bdi3O2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bdi3PGoGEeyMX89dbfyWEA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bdi3PWoGEeyMX89dbfyWEA" abstractOperation="true" name="applyOp">
+      <modelElement href="memorySQL.uml#_Wl06UGoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bdi3PmoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bdi3P2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bdi3QGoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_Wl2IcGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bdi3QWoGEeyMX89dbfyWEA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bdi3QmoGEeyMX89dbfyWEA" name="filterValue">
+        <modelElement href="memorySQL.uml#_Wl1hYGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdi3Q2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdi3RGoGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bdi3RWoGEeyMX89dbfyWEA" name="value">
+        <modelElement href="memorySQL.uml#_Wl1hYWoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bdi3RmoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bdi3R2oGEeyMX89dbfyWEA" name="Object">
+          <modelElement href="memorySQL.uml#_WjYqUWoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bcOolmoGEeyMX89dbfyWEA" name="Row" associationsOut="_bcOBgGoGEeyMX89dbfyWEA">
+    <modelElement href="memorySQL.uml#_WRUC4GoGEeyMX89dbfyWEA"/>
+    <visualProperties xmi:id="_bcOol2oGEeyMX89dbfyWEA" position="-46.0,475.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bcOomGoGEeyMX89dbfyWEA" label="+"/>
+    <attributes xmi:id="_bcOomWoGEeyMX89dbfyWEA" name="rowId">
+      <modelElement href="memorySQL.uml#_WmDj0GoGEeyMX89dbfyWEA"/>
+      <visibility xmi:id="_bcOommoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcOom2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bcOonGoGEeyMX89dbfyWEA" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bcOonWoGEeyMX89dbfyWEA" name="values">
+      <modelElement href="memorySQL.uml#_WmEK4GoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_1r3lQGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1r4MUGoGEeyMX89dbfyWEA" name="Generics"/>
+      <stereotypes xmi:id="_1r4zYGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1r5acGoGEeyMX89dbfyWEA" name="Generics"/>
+      <stereotypes xmi:id="_1sAvMGoGEeyMX89dbfyWEA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_1sAvMWoGEeyMX89dbfyWEA" name="Generics"/>
+      <visibility xmi:id="_bcOooGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcOooWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <type xmi:id="_bcOoomoGEeyMX89dbfyWEA" name="LinkedHashMap">
+        <modelElement href="memorySQL.uml#_Wg9BYGoGEeyMX89dbfyWEA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bcOoo2oGEeyMX89dbfyWEA" name="toString">
+      <modelElement href="memorySQL.uml#_WRWfIGoGEeyMX89dbfyWEA"/>
+      <stereotypes xmi:id="_bcOopGoGEeyMX89dbfyWEA" name="LegacyStyledElement">
+        <modelElement href="memorySQL.uml#_WRYUUGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bcOopWoGEeyMX89dbfyWEA" name="Annotations">
+        <modelElement href="memorySQL.uml#_WRawkGoGEeyMX89dbfyWEA"/>
+      </stereotypes>
+      <visibility xmi:id="_bcOopmoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcOop2oGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bcOoqGoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WRXtQGoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bcOoqWoGEeyMX89dbfyWEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bcOoqmoGEeyMX89dbfyWEA" name="Row">
+      <modelElement href="memorySQL.uml#_WkA8cGoGEeyMX89dbfyWEA"/>
+      <keywords xmi:id="_bcOoq2oGEeyMX89dbfyWEA" keyword="create"/>
+      <visibility xmi:id="_bcOorGoGEeyMX89dbfyWEA" label="+"/>
+      <cardinality xmi:id="_bcOorWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bcOormoGEeyMX89dbfyWEA">
+        <modelElement href="memorySQL.uml#_WkD_wmoGEeyMX89dbfyWEA"/>
+        <type xmi:id="_bcOor2oGEeyMX89dbfyWEA" name="Row">
+          <modelElement href="memorySQL.uml#_WRUC4GoGEeyMX89dbfyWEA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bcOosGoGEeyMX89dbfyWEA" name="rowId">
+        <modelElement href="memorySQL.uml#_WkCxoGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcOosWoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcOosmoGEeyMX89dbfyWEA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bcOos2oGEeyMX89dbfyWEA" name="values">
+        <modelElement href="memorySQL.uml#_WkDYsGoGEeyMX89dbfyWEA"/>
+        <cardinality xmi:id="_bcOotGoGEeyMX89dbfyWEA" label="1" max="1" min="1"/>
+        <type xmi:id="_bcOotWoGEeyMX89dbfyWEA" name="LinkedHashMap">
+          <modelElement href="memorySQL.uml#_Wg9BYGoGEeyMX89dbfyWEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,5 +1,14 @@
 package com.memorysql.model;
 
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.Map.Entry;
+
+import com.memorysql.model.operator.Operator;
+
 /*In-memory SQL-like Database
 Problem Statement
 
@@ -24,9 +33,56 @@ It should be possible to filter and display records whose column values match a 
 // map.data.filter(emp->emp(index).filter(deepanshu))
  * */
 
-
 public class SQL {
-	
-	
-	
+	Database db;
+	public SQL(Database db){
+		this.db = db;
+	}
+	public List<Row> Query(String tableName, Object value, String columnname, String columnsToSelect, Operator op) {
+		List<Row> results = new ArrayList<Row>();
+		Set<Entry<Integer, Row>> data = db.getTable(tableName).getRows().entrySet();
+		for (Map.Entry<Integer, Row> entry : data) {
+			if (op.applyOp(entry.getValue().getValues().get(columnname), value))
+				results.add(entry.getValue());
+		}
+		return results;
+	}
+
+	// INSERT INTO EMPLOYEE values("");
+	public void insert(String insertQuery) {
+		String[] splitedQuery = insertQuery.toLowerCase().split("\\s");
+		String[] values = parseValues(splitedQuery[3]);
+		Table table = db.getTable(splitedQuery[2]);
+		if (table == null) {
+			System.out.print("Table not found");
+			return;
+		}
+		Set<String> columns = table.getColumns().keySet();
+
+		if (values.length != columns.size()) {
+			System.out.print("Values length invalid");
+			return;
+		}
+		LinkedHashMap<String, Object> record = new LinkedHashMap<String, Object>();
+
+		var wrapper = new Object() {
+			int ordinal = 0;
+		};
+		columns.forEach(col -> insert(table, record, col, values[wrapper.ordinal++]));
+
+		table.insert(record);
+	}
+
+	private void insert(Table table, Map<String, Object> record, String col, String value) {
+		if (table.getColumns().get(col).type == Type.INTEGER)
+			record.put(col, Integer.valueOf(value));
+		else
+			record.put(col, value);
+	}
+
+	private String[] parseValues(String splitedQuery) {
+		return splitedQuery.replaceAll("values", "").replaceAll("\"", "").replaceAll("\\)", "").replaceAll("\"", "")
+				.replaceAll("\\(", "").replaceAll(";", "").split(",");
+	}
+
 }
